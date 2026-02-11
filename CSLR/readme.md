@@ -21,9 +21,12 @@ Continuous Sign Language Recognition Dataset (Inertial Sensor-Based)
 
 *** Sensor Placement ***
           
-  The MPU9250 module was placed on the back of the hand.
-  Five GY-521 modules were placed on the fingertips.
-  One GY-521 module was placed on the wrist.
+    The MPU9250 module was placed on the back of the hand.
+  
+    Five GY-521 modules were placed on the fingertips.
+  
+    One GY-521 module was placed on the wrist.
+  
   * Due to the high similarity between the motion data recorded from the back-of-hand module and the wrist module during number gestures, the wrist sensor data were excluded from the final dataset.
   Therefore, the final dataset contains data from six active sensor modules.
 
@@ -79,8 +82,11 @@ Continuous Sign Language Recognition Dataset (Inertial Sensor-Based)
 
   For the two-, three-, and four-digit datasets, and for 43 samples of the six-digit dataset, the starting and ending frame indices of each digit are provided.
   For each digit:
+  
       The first number represents the start frame of the gesture.
+      
       The second number represents the end frame of the gesture.
+      
       The frames between the end of one digit and the start of the next digit correspond to transitional hand movements.
 
 *** Example: Loading the Dataset ***
