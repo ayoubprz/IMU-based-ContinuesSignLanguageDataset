@@ -10,9 +10,13 @@ Continuous Sign Language Recognition Dataset (Inertial Sensor-Based)
 *** Sensor Configuration ***
 
   Data were collected using a custom-designed glove equipped with the following inertial modules:
+  
       1 × MPU9250 (9-axis IMU)
+      
       6 × GY-521 modules, each containing:
+
         1 accelerometer
+        
         1 gyroscope
 
 *** Sensor Placement ***
